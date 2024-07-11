@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 interface ClothingItem {
-    String getType();   // Method to get type of clothing item
-    String getColor();  // Method to get color of clothing item
+    String getType();   
+    String getColor();  
 }
 
 class Top implements ClothingItem {
